@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+@font-face{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+.home-title{
+    position: static;
+    width: 100px;
+    height: 35px;
+    left: 85px;
+    top: 70px;
+    margin: 0 3;
+    font-family: 'verdana';
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+    color: #EEEEEE; 
+}
+
+
+
+.home-score-background{
+    position: static;
+    width: 100px;
+    margin-bottom: 30px;
+    height: 40px;
+    left: 80px;
+    top: 120px;
+    background: #0B0001;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#score-home-el{
+    position: static;
+    width: 10px;
+    height: 100px;
+    margin: 0 auto;
+    top: 5px;
+    left: 10px;
+    color: #F94F6D;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2; 
+}
+
+
+
+#freethrow-home-el{
+    box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;   
+}
+#midrange-home-el{
+     box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+#longthree-home-el{
+     box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+.guest-title{
+    position: static;
+    width: 100px;
+    height: 35px;
+    left: 85px;
+    top: 70px;
+    margin: 0 3;
+    font-family: 'verdana';
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+    color: #EEEEEE; 
+}
+
+.guest-score-background{
+    position: static;
+    width: 100px;
+    margin-bottom: 30px;
+    height: 40px;
+    left: 80px;
+    top: 120px;
+    background: #0B0001;
+    border-radius: 5px;
+}
+
+#score-guest-el{
+    position: static;
+    width: 10px;
+    height: 100px;
+    margin: 0 auto;
+    top: 5px;
+    left: 10px;
+    color: #F94F6D;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2; 
+}
+
+#freethrow-guest-el{
+    box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;   
+}
+#midrange-guest-el{
+     box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+#longthree-guest-el{
+     box-sizing: border-box;
+    position: static;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
